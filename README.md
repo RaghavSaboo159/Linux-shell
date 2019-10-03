@@ -1,9 +1,9 @@
 # Linux-shell
-Shell in C language
+A bash-like shell using system calls in C to implement various shell commands.
 
-#START
-enter "make" in command line
-enter"./a.out" in command line
+## How to start the shell
+- Run `make` in terminal.
+- Run `./a.out` to run the shell.
 
-#EXIT
-enter "quit" in command line
+## How to exit the shell
+- Enter `quit` to exit the shell.
