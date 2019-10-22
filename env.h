@@ -19,7 +19,7 @@ int unsetenvfunction(char *ff[])
 int getenvfunction(char *ff[])
     {
         if(getenv(ff[1])==0)
-            fprintf(stderr,"Please check the format\n");
+            fprintf(stderr,"Invalid format\n");
         else
             printf("%s\n",getenv(ff[1]));
     }
