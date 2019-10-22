@@ -54,7 +54,7 @@ int cd(char *unm,char host[],char *ff[],char *cwd)
 			int x=chdir(pth);
 			if(x<0)
 			{
-				printf("error\n" );
+				perror("error\n");
 			}
 			return 1;
 		}
@@ -63,7 +63,7 @@ int cd(char *unm,char host[],char *ff[],char *cwd)
 			int x=chdir(ff[1]);
 			if(x<0)
 			{
-				printf("error\n");
+				perror("error\n");
 			}
 			return 1;
 		}
